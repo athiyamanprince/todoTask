@@ -1,101 +1,81 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 h1 {
-    /* text-shadow: 2px 2px 4px #000; */
-    padding-top:1rem  ;
-    font-size: 5rem;
-    animation: glitch 1s infinite;
-  }
-  
-  @keyframes glitch {
-    0% {
-      text-shadow: 2px 2px 4px #000;
-    }
-    20% {
-      text-shadow: -2px -2px 4px #000, 2px 2px 4px #fff;
-    }
-    40% {
-      text-shadow: -2px -2px 4px #fff, 2px 2px 4px #000;
-    }
-    60% {
-      text-shadow: 2px -2px 4px #000, -2px 2px 4px #fff;
-    }
-    80% {
-      text-shadow: -2px -2px 4px #fff, 2px 2px 4px #000;
-    }
-    100% {
-      text-shadow: 2px 2px 4px #000;
-    }
-  }
-  
+  /* text-shadow: 2px 2px 4px #000; */
+  padding-top:1rem  ;
+  font-size: 5rem;
+  color: white;
+}
+
+
 
 body{
-    font-family: "nunito",sans-serif;
-    min-height: 100vh;
-    background-color: whitesmoke;
+  font-family: "nunito",sans-serif;
+  min-height: 100vh;
+  background-color: whitesmoke;
 }
 
 header{
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 header , form {
-    min-height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
 }
 
 .user-input , .user-button {
-    padding: 0.5 rem;
-    font-size: 1rem;
-    border: none;
-    background: white;
-    height: 3rem ;
+  padding: 0.5 rem;
+  font-size: 1rem;
+  border: none;
+  background: white;
+  height: 3rem ;
 }
 .user-input{
-    width: 50rem;
+  width: 50rem;
 }
 .user-button {
-    color: black;
-    background: white ;
-    cursor: pointer;
-    padding-right: 10px;
-    font-size: 2rem;
+  color: black;
+  background: white ;
+  cursor: pointer;
+  padding-right: 10px;
+  font-size: 2rem;
 }
 
 /* todo task button styling */
 
 .user-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .todo-list{
-    min-width: 30%;
-    list-style: none;
+  min-width: 30%;
+  list-style: none;
 }
 .todo{
-    margin: 0.5rem;
-    background: transparent;
-    color: black;
-    font-size: 24px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin: 0.5rem;
+  background: transparent;
+  color: black;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .todo li {
-    flex: 1 ;
+  flex: 1 ;
 }
 .edit-btn , .delete-btn{
-    background: transparent;
-    padding: 16px;
-    border: none;
-    cursor: pointer;
-    font-size: 1rem;
+  background: transparent;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
 }
