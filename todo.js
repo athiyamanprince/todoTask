@@ -33,7 +33,7 @@ for (let userText = 0; userText < todoItems.length; userText++) {
 
   // add input to local storage
   saveLocalTodos(todoInput.value);
-  
+
     // Create edit button element
     const editButton = document.createElement('button');
     editButton.innerHTML = '<i class="fa-solid fa-pen-to-square"></i>';
@@ -43,7 +43,6 @@ for (let userText = 0; userText < todoItems.length; userText++) {
       todoInput.value = newTodo.textContent.trim();
       // Remove the original todo item from the list
       todoList.removeChild(todoDiv);
-      todoInput.value = '';
     });
 
 
@@ -164,4 +163,3 @@ function saveTodoList() {
   }
   localStorage.setItem('todos', JSON.stringify(todos));
 }
-
