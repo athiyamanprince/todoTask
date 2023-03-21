@@ -57,7 +57,6 @@ for (let userText = 0; userText < todoItems.length; userText++) {
       if (confirmation) {
         todoList.removeChild(todoDiv);
         saveTodoList();
-        alert('ujvbbs')
       }
     });
   
